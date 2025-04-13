@@ -93,7 +93,9 @@ public class MainActivity extends AppCompatActivity {
         } catch (Throwable e) {
             throw new RuntimeException(e);
         }
-        
+
+        testWeatherNow();
+
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {

@@ -20,27 +20,21 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--dontwarn com.qweather.sdk.**
--keep class com.qweather.sdk.QWeather { public *; }
+-keep public class com.qweather.sdk.QWeather {
+    public *;
+}
 
-#---------------------------------Entry--------------------------------
--keep class com.qweather.sdk.parameter.** { public *; }
--keep class com.qweather.sdk.response.** { public *; }
--keep class com.qweather.sdk.basic.* { public *; }
+-keep public class com.qweather.sdk.basic.**{ *; }
+-keepclassmembers class com.qweather.sdk.basic** { *; }
 
-#---------------------------------Other--------------------------------
--keep class com.qweather.sdk.JWTGenerator { public *; }
--keep interface com.qweather.sdk.TokenGenerator { public *; }
--keep interface com.qweather.sdk.Callback { *; }
+-keep public class com.qweather.sdk.parameter.**{ *; }
+-keepclassmembers class com.qweather.sdk.parameter** { *; }
 
-#---------------------------------Third Part-------------------------------
-# EdDSA
--keep class net.i2p.crypto.eddsa.** { *; }
+-keep public class com.qweather.sdk.response.**{ *; }
+-keepclassmembers class com.qweather.sdk.response** { *; }
 
-# okhttp
--keep class okhttp3.** { *; }
--keep interface okhttp3.** { *; }
--dontwarn okhttp3.**
-
-# Gson
--keep class com.google.gson.** { *; }
+-keep interface com.qweather.sdk.Callback{  *; }
+-keep interface com.qweather.sdk.TokenGenerator{  *; }
+-keep public class com.qweather.sdk.JWTGenerator {
+    public *;
+}
