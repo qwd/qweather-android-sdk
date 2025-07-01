@@ -42,10 +42,10 @@ android {
 
 dependencies {
 
-    implementation files('../../QWeather_Public_Android_V5.1.1.jar')
-    implementation libs.okhttp
+    implementation files('../../QWeather_Public_Android_V5.1.2.jar')
+
+    // "com.google.code.gson:gson:2.10.1"
     implementation libs.gson
-    implementation libs.eddsa
 
     implementation libs.appcompat
     implementation libs.material
