@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace 'com.heweather.example'
-    compileSdk 35
+    compileSdk 36
 
     defaultConfig {
         applicationId "com.heweather.example"
@@ -42,7 +42,7 @@ android {
 
 dependencies {
 
-    implementation files('../../QWeather_Public_Android_V5.1.2.jar')
+    implementation files('../../QWeather_Public_Android_V5.2.1.jar')
     implementation libs.okhttp // "4.12.0"
     implementation libs.gson // "2.10.1"
     implementation libs.eddsa // "0.3.0"
