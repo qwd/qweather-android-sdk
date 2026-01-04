@@ -23,6 +23,7 @@ import com.qweather.sdk.basic.Unit;
 import com.qweather.sdk.parameter.air.AirParameter;
 import com.qweather.sdk.parameter.air.AirV1Parameter;
 import com.qweather.sdk.parameter.air.AirV1StationParameter;
+import com.qweather.sdk.parameter.alert.WeatherAlertCurrentParameter;
 import com.qweather.sdk.parameter.astronomy.AstronomyMoonParameter;
 import com.qweather.sdk.parameter.astronomy.AstronomySunParameter;
 import com.qweather.sdk.parameter.astronomy.SolarElevationAngleParameter;
@@ -47,6 +48,7 @@ import com.qweather.sdk.response.air.v1.AirV1CurrentResponse;
 import com.qweather.sdk.response.air.v1.AirV1DailyResponse;
 import com.qweather.sdk.response.air.v1.AirV1HourlyResponse;
 import com.qweather.sdk.response.air.v1.AirV1StationResponse;
+import com.qweather.sdk.response.alert.WeatherAlertCurrentResponse;
 import com.qweather.sdk.response.astronomy.AstronomyMoonResponse;
 import com.qweather.sdk.response.astronomy.AstronomySolarElevationAngleResponse;
 import com.qweather.sdk.response.astronomy.AstronomySunResponse;
@@ -519,6 +521,26 @@ public class MainActivity extends AppCompatActivity {
         instance.warningList(parameter, new Callback<WarningListResponse>() {
             @Override
             public void onSuccess(WarningListResponse response) {
+                Log.i(TAG, response.toString());
+            }
+
+            @Override
+            public void onFailure(ErrorResponse errorResponse) {
+                Log.i(TAG,errorResponse.toString());
+            }
+
+            @Override
+            public void onException(Throwable e) {
+                e.printStackTrace();
+            }
+        });
+    }
+
+    private void testWeatherAlertCurrent(){
+        WeatherAlertCurrentParameter parameter = new WeatherAlertCurrentParameter(39.2,  116.41, true);
+        instance.weatherAlertCurrent(parameter, new Callback<WeatherAlertCurrentResponse>() {
+            @Override
+            public void onSuccess(WeatherAlertCurrentResponse response) {
                 Log.i(TAG, response.toString());
             }
 
