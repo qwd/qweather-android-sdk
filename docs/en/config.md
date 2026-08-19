@@ -20,7 +20,7 @@ Download SDK: [QWeatherSDK 5.2.3](https://github.com/qwd/qweather-android-sdk/re
 YOUR-PROJECT/
 ├── app/
 │   ├── libs/
-│   │   └── QWeather_Public_Android_V5.2.2.jar
+│   │   └── QWeather_Public_Android_V5.2.3.jar
 │   ├── src/
 │   └── build.gradle
 ```
@@ -30,7 +30,7 @@ YOUR-PROJECT/
 ```bash
 dependencies {
     // add QWeather jar
-    implementation files('libs/QWeather_Public_Android_V5.2.2.jar')
+    implementation files('libs/QWeather_Public_Android_V5.2.3.jar')
     
     // or add all jar
     implementation fileTree(dir: 'libs', include: ['*.jar'])
