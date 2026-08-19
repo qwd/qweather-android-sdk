@@ -12,7 +12,7 @@ Android 8.0+, minSDK 26
 
 ## 2、安装SDK
 
-下载 SDK: [QWeatherSDK 5.2.2](https://github.com/qwd/qweather-android-sdk/releases/tag/5.2.2) • [更新记录](https://github.com/qwd/qweather-android-sdk/releases)
+下载 SDK: [QWeatherSDK 5.2.3](https://github.com/qwd/qweather-android-sdk/releases/tag/5.2.3) • [更新记录](https://github.com/qwd/qweather-android-sdk/releases)
 
 * 将JAR文件复制到`app/libs/`目录
 
@@ -20,7 +20,7 @@ Android 8.0+, minSDK 26
 YOUR-PROJECT/
 ├── app/
 │   ├── libs/
-│   │   └── QWeather_Public_Android_V5.2.2.jar
+│   │   └── QWeather_Public_Android_V5.2.3.jar
 │   ├── src/
 │   └── build.gradle
 ```
@@ -30,7 +30,7 @@ YOUR-PROJECT/
 ```bash
 dependencies {
     // 添加以下配置
-    implementation files('libs/QWeather_Public_Android_V5.2.2.jar')
+    implementation files('libs/QWeather_Public_Android_V5.2.3.jar')
     
     // 或者批量添加所有JAR
     implementation fileTree(dir: 'libs', include: ['*.jar'])
