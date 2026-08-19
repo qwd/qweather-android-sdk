@@ -12,7 +12,7 @@ Make sure you have created a Project and Credential, see [Project and KEY](https
 
 ## 2. Installation
 
-Download SDK: [QWeatherSDK 5.2.2](https://github.com/qwd/qweather-android-sdk/releases/tag/5.2.2)  • [Release note](https://github.com/qwd/qweather-android-sdk/releases)
+Download SDK: [QWeatherSDK 5.2.3](https://github.com/qwd/qweather-android-sdk/releases/tag/5.2.3)  • [Release note](https://github.com/qwd/qweather-android-sdk/releases)
 
 * Copy the JAR file to the `app/libs/`
 
