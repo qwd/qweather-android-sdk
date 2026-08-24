@@ -12,7 +12,7 @@ Android 8.0+, minSDK 26
 
 ## 2、安装SDK
 
-下载 SDK: [QWeatherSDK 5.2.3](https://github.com/qwd/qweather-android-sdk/releases/tag/5.2.3) • [更新记录](https://github.com/qwd/qweather-android-sdk/releases)
+下载 SDK: [QWeatherSDK 5.3.0](https://github.com/qwd/qweather-android-sdk/releases/tag/5.3.0) • [更新记录](https://github.com/qwd/qweather-android-sdk/releases)
 
 * 将JAR文件复制到`app/libs/`目录
 
@@ -20,7 +20,7 @@ Android 8.0+, minSDK 26
 YOUR-PROJECT/
 ├── app/
 │   ├── libs/
-│   │   └── QWeather_Public_Android_V5.2.3.jar
+│   │   └── QWeather_Public_Android_V5.3.0.jar
 │   ├── src/
 │   └── build.gradle
 ```
@@ -30,7 +30,7 @@ YOUR-PROJECT/
 ```bash
 dependencies {
     // 添加以下配置
-    implementation files('libs/QWeather_Public_Android_V5.2.3.jar')
+    implementation files('libs/QWeather_Public_Android_V5.3.0.jar')
     
     // 或者批量添加所有JAR
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -85,10 +85,18 @@ QWeather.getInstance(MainActivity.this, "{YOUR_HOST}") // 初始化服务地址
 
 ```java
 // 通过SDK提供的JWTGenerator设置令牌生成器，其实现自TokenGenerator接口
-JWTGenerator jwt = new JWTGenerator("{YOUR_PRIVATE_KEY}", // 私钥
-                           "{YOUR_PROJECT_ID}", // 项目ID
-                           "{YOUR_KID}"); // 凭据ID
+JWTGenerator jwt = new JWTGenerator(
+    "{YOUR_PRIVATE_KEY}", // 私钥
+    "{YOUR_PROJECT_ID}", // 项目 ID
+    "{YOUR_KID}", // 凭据 ID
+    "{YOUR_DEVELOPER_ID}"); // 开发者 ID 
 instance.setTokenGenerator(jwt);
 
 //NOTE: 开发者也可以通过实现TokenGenerator接口创建自己的令牌生成器
+instance.setTokenGenerator(new TokenGenerator() {
+    @Override
+    public String generator()  {
+        return "{YOUR_TOKEN}";
+    }
+});
 ```

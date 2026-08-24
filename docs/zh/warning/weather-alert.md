@@ -4,9 +4,9 @@
 
 根据指定的经纬度坐标，查询中国和全球正在生效的官方天气预警信息。阅读[实用资料-预警](https://dev.qweather.com/docs/resource/warning-info/)以了解预警信息支持的国家和地区、事件类型等必要信息。
 
-| 接口代码     | 接口     | 数据类           |
+| 接口代码 | 接口 | 数据类 |
 | -------------------- | -------- | ---------------- |
-| weatherAlertCurrent | 实时天气预警 | [WeatherAlertCurrentResponse](https://dev.qweather.com/docs/api/warning/weather-alert/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| weatherAlertCurrent | 实时天气预警 | [WeatherAlertCurrentResponse](https://dev.qweather.com/docs/api/warning/weather-alert/#response) |
 
 ## 参数
 
@@ -41,4 +41,4 @@ instance.weatherAlertCurrent(parameter, new Callback<WeatherAlertCurrentResponse
 
 ## 返回数据
 
-[WeatherAlertCurrentResponse](https://dev.qweather.com/docs/api/warning/weather-alert/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)
+[WeatherAlertCurrentResponse](https://dev.qweather.com/docs/api/warning/weather-alert/#response)

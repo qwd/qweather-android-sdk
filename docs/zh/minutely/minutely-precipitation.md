@@ -5,9 +5,9 @@
 分钟级降水提供中国地区未来2小时内每5分钟降水数据、降水类型以及未来2小时的降水概况信息。
 > 仅限中国地区。
 
-| 接口代码   | 接口      | 数据类                   |
+| 接口代码 | 接口 | 数据类 |
 | --------- | -------------- | ----------------- |
-|  minutely | 分钟级降水 | [MinutelyResponse](https://dev.qweather.com/docs/api/minutely/minutely-precipitation/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| minutely | 分钟级降水 | [MinutelyResponse](https://dev.qweather.com/docs/api/minutely/minutely-precipitation/#response) |
 
 ## 参数
 
@@ -41,4 +41,4 @@ instance.minutely(parameter, new Callback<MinutelyResponse>() {
 
 ## 返回数据
 
-[MinutelyResponse](https://dev.qweather.com/docs/api/minutely/minutely-precipitation/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)
+[MinutelyResponse](https://dev.qweather.com/docs/api/minutely/minutely-precipitation/#response)

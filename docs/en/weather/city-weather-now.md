@@ -1,12 +1,12 @@
-[English](weather-now.md) | [中文](../../zh/weather/weather-now.md) · [← Back](../../../README.md)
+[English](city-weather-now.md) | [中文](../../zh/weather/city-weather-now.md) · [← Back](../../../README.md)
 
-# Real-time weather
+# Weather Now (City-based)
 
 Get real-time weather data for 200,000+ cities around the world, including temperature, wind, humidity, pressure, precipitation, visibility, etc.
 
-| Interface code     | Interface         | Class            |
+| Interface code | Interface | Class |
 | ------------------------- | ----------------- | ---------------- |
-| weatherNow  | Real-time weather | [WeatherNowResponse](https://dev.qweather.com/en/docs/api/weather/weather-now/#response) |
+| weatherNow | Weather Now (City-based) | [WeatherNowResponse](https://dev.qweather.com/en/docs/api/weather/weather-now-webapi-v7/#response) |
 
 ## Parameters
 
@@ -42,4 +42,4 @@ instance.weatherNow(parameter, new Callback<WeatherNowResponse>() {
 
 ## Response
 
-[WeatherNowResponse](https://dev.qweather.com/en/docs/api/weather/weather-now/#response)
+[WeatherNowResponse](https://dev.qweather.com/en/docs/api/weather/weather-now-webapi-v7/#response)

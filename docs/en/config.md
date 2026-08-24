@@ -12,7 +12,7 @@ Make sure you have created a Project and Credential, see [Project and KEY](https
 
 ## 2. Installation
 
-Download SDK: [QWeatherSDK 5.2.3](https://github.com/qwd/qweather-android-sdk/releases/tag/5.2.3)  • [Release note](https://github.com/qwd/qweather-android-sdk/releases)
+Download SDK: [QWeatherSDK 5.3.0](https://github.com/qwd/qweather-android-sdk/releases/tag/5.3.0)  • [Release note](https://github.com/qwd/qweather-android-sdk/releases)
 
 * Copy the JAR file to the `app/libs/`
 
@@ -20,7 +20,7 @@ Download SDK: [QWeatherSDK 5.2.3](https://github.com/qwd/qweather-android-sdk/re
 YOUR-PROJECT/
 ├── app/
 │   ├── libs/
-│   │   └── QWeather_Public_Android_V5.2.3.jar
+│   │   └── QWeather_Public_Android_V5.3.0.jar
 │   ├── src/
 │   └── build.gradle
 ```
@@ -30,7 +30,7 @@ YOUR-PROJECT/
 ```bash
 dependencies {
     // add QWeather jar
-    implementation files('libs/QWeather_Public_Android_V5.2.3.jar')
+    implementation files('libs/QWeather_Public_Android_V5.3.0.jar')
     
     // or add all jar
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -85,10 +85,18 @@ For security purposes, please ensure proper management of sensitive information 
 
 ```java
 // Set up the token generator using the JWTGenerator provided by the SDK, which implements the TokenGenerator interface.
-JWTGenerator jwt = new JWTGenerator("{YOUR_PRIVATE_KEY}", // Private key
-                           "{YOUR_PROJECT_ID}", // Project ID
-                           "{YOUR_KID}"); // Credential ID
+JWTGenerator jwt = new JWTGenerator(
+    "{YOUR_PRIVATE_KEY}", // Private key
+    "{YOUR_PROJECT_ID}", // Project ID
+    "{YOUR_KID}", // Credential ID
+    "{YOUR_DEVELOPER_ID}"); // Developer ID
 instance.setTokenGenerator(jwt);
 
 //NOTE: Developers can customize their token generators by implementing the TokenGenerator interface. 
+instance.setTokenGenerator(new TokenGenerator() {
+    @Override
+    public String generator()  {
+        return "{YOUR_TOKEN}";
+    }
+});
 ```

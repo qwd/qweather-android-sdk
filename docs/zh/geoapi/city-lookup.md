@@ -8,9 +8,9 @@
 
 另外，城市搜索也可以帮助你在你的APP中实现模糊搜索，用户只需要输入1-2个字即可获得结果。
 
-| 接口代码  | 接口                  | 数据类       |
+| 接口代码 | 接口 | 数据类 |
 | -------- | ---------------------------- | ------------ |
-| geoCityLookup | 城市搜索  | [GeoCityLookupResponse](https://dev.qweather.com/docs/api/geoapi/city-lookup/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| geoCityLookup | 城市搜索 | [GeoCityLookupResponse](https://dev.qweather.com/docs/api/geoapi/city-lookup/#response) |
 
 ## 参数
 
@@ -46,4 +46,4 @@ QWeather.instance.geoCityLookup(parameter, new Callback<GeoCityLookupResponse>()
 
 ## 返回数据
 
-[GeoCityLookupResponse](https://dev.qweather.com/docs/api/geoapi/city-lookup/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)
+[GeoCityLookupResponse](https://dev.qweather.com/docs/api/geoapi/city-lookup/#response)

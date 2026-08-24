@@ -6,9 +6,9 @@
 
 > 目前仅支持中国沿海地区，即`basin=NP`
 
-| 接口代码        | 接口     | 数据类             |
+| 接口代码 | 接口 | 数据类 |
 | ------------------- | -------- | ---------------- |
-| tropicalStormList | 台风列表 | [StormListResponse](https://dev.qweather.com/docs/api/tropical-cyclone/storm-list/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| tropicalStormList | 台风列表 | [StormListResponse](https://dev.qweather.com/docs/api/tropical-cyclone/storm-list/#response) |
 
 ## 参数
 
@@ -48,4 +48,4 @@ instance.tropicalStormList(parameter, new Callback<StormListResponse>() {
 
 ## 返回数据
 
-[StormListResponse](https://dev.qweather.com/docs/api/tropical-cyclone/storm-list/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)
+[StormListResponse](https://dev.qweather.com/docs/api/tropical-cyclone/storm-list/#response)

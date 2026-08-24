@@ -4,11 +4,9 @@
 
 空气质量小时预报API提供未来24小时空气质量的数据，包括AQI、污染物浓度、分指数以及健康建议。
 
-我们推荐阅读[空气质量信息文档](https://dev.qweather.com/docs/resource/air-info/)，以便了解AQI的类型、污染物、支持的国家等信息。
-
-| 接口代码 | 接口                         | 数据类         |
+| 接口代码 | 接口 | 数据类 |
 | --------------- | ---------------------------- | ------------ |
-| airHourly | 空气质量小时预报    | [AirV1HourlyResponse](https://dev.qweather.com/docs/api/air-quality/air-hourly-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| airHourly | 空气质量小时预报 | [AirV1HourlyResponse](https://dev.qweather.com/docs/api/air-quality/air-hourly-forecast/#response) |
 
 ## 参数
 
@@ -42,4 +40,4 @@ instance.airHourly(parameter, new Callback<AirV1HourlyResponse>() {
 
 ## 返回数据
 
-[AirV1HourlyResponse](https://dev.qweather.com/docs/api/air-quality/air-hourly-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)
+[AirV1HourlyResponse](https://dev.qweather.com/docs/api/air-quality/air-hourly-forecast/#response)

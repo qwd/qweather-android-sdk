@@ -6,9 +6,9 @@
 
 > 月相已考虑南北半球的差异，不需要再进行转换
 
-| 接口代码            | 接口           | 数据类        |
+| 接口代码 | 接口 | 数据类 |
 | --------------------------- | -------------- | ------------- |
-| astronomyMoon | 月升月落和月相 | [AstronomyMoonResponse](https://dev.qweather.com/docs/api/astronomy/moon-and-moon-phase/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| astronomyMoon | 月升月落和月相 | [AstronomyMoonResponse](https://dev.qweather.com/docs/api/astronomy/moon-and-moon-phase/#response) |
 
 ## 参数
 
@@ -44,4 +44,4 @@ instance.astronomyMoon(parameter, new Callback<AstronomyMoonResponse>() {
 
 ## 返回数据
 
-[AstronomyMoonResponse](https://dev.qweather.com/docs/api/astronomy/moon-and-moon-phase/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)
+[AstronomyMoonResponse](https://dev.qweather.com/docs/api/astronomy/moon-and-moon-phase/#response)

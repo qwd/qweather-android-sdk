@@ -2,19 +2,16 @@
 
 # Current Air Quality
 
-The current air quality (AQI) API provides real-time air quality data for specified locations, data resolution is 1x1 km.
+The Current Air Quality API provides real-time air quality data worldwide for a specified location at 1-kilometer resolution, including:
 
 - AQI, category, color and primary pollutant based on local standards for each country or region
 - Generic QWeather AQI
-- Pollutant concentration values and their sub-index.
-- Health effects and advice
-- Associated monitoring station information
+- Pollutant concentrations and sub-indexes
+- Health guidance
 
-We recommend to read [Air Quality Info](https://dev.qweather.com/en/docs/resource/air-info/) to learn about the AQIs, pollutants, supported regions and more.
-
-| Interface code | Interface         | Class       |
+| Interface code | Interface | Class |
 | --------------- | ---------------- | ------------ |
-| airCurrent | Current Air Quality  | [AirV1CurrentResponse](https://dev.qweather.com/en/docs/api/air-quality/air-current/#response) |
+| airCurrent | Current Air Quality | [AirV1CurrentResponse](https://dev.qweather.com/en/docs/api/air-quality/air-current/#response) |
 
 ## Parameters
 
