@@ -2,9 +2,8 @@
 
 # Air quality daily forecast
 
-Air quality (AQI) dailay forecasts, pollutants, and health advice for the next 3 days.
+Get daily AQI forecasts, pollutant concentrations, and health guidance for the next 3 days.
 
-We recommend to read [Air Quality Info](https://dev.qweather.com/en/docs/resource/air-info/) to learn about the AQIs, pollutants, supported regions and more.
 
 | Interface code | Interface                         | Class       |
 | --------------- | ---------------------------- | ------------ |

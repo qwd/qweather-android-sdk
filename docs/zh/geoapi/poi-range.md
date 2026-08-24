@@ -4,9 +4,9 @@
 
 提供指定区域范围内查询所有POI信息。
 
-| 接口代码 | 接口                   | 数据类       |
+| 接口代码 | 接口 | 数据类 |
 | ----------- | -------------------------- | ------------ |
-| geoPoiRange | POI范围搜索  | [GeoPoiResponse](https://dev.qweather.com/docs/api/geoapi/poi-range/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| geoPoiRange | POI范围搜索 | [GeoPoiResponse](https://dev.qweather.com/docs/api/geoapi/poi-range/#response) |
 
 ## 参数
 
@@ -45,4 +45,4 @@ instance.geoPoiRange(parameter, new Callback<GeoPoiResponse>() {
 
 ## 返回数据
 
-[GeoPoiResponse](https://dev.qweather.com/docs/api/geoapi/poi-range/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)
+[GeoPoiResponse](https://dev.qweather.com/docs/api/geoapi/poi-range/#response)

@@ -13,9 +13,9 @@
 > * 所需要的城市或坐标
 > * 所需要的时间范围
 
-| 接口代码           | 接口          | 数据类                     |
-| ---------------   | ----------- | -------------------------- |
-| historicalWeather | 历史天气      | [HistoricalWeatherResponse](https://dev.qweather.com/docs/api/time-machine/time-machine-weather/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| 接口代码 | 接口 | 数据类 |
+| --------------- | ----------- | -------------------------- |
+| historicalWeather | 历史天气 | [HistoricalWeatherResponse](https://dev.qweather.com/docs/api/time-machine/time-machine-weather/#response) |
 
 ## 参数
 
@@ -58,4 +58,4 @@ instance.historicalWeather(parameter, new Callback<HistoricalWeatherResponse>() 
 
 ## 返回数据
 
-[HistoricalWeatherResponse](https://dev.qweather.com/docs/api/time-machine/time-machine-weather/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)
+[HistoricalWeatherResponse](https://dev.qweather.com/docs/api/time-machine/time-machine-weather/#response)

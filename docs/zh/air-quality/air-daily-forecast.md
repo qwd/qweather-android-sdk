@@ -4,11 +4,9 @@
 
 空气质量每日预报API提供未来3天的空气质量（AQI）预报、污染物浓度值和健康建议。
 
-我们推荐阅读[空气质量信息文档](https://dev.qweather.com/docs/resource/air-info/)，以便了解AQI的类型、污染物、支持的国家等信息。
-
-| 接口代码 | 接口                         | 数据类      |
+| 接口代码 | 接口 | 数据类 |
 | --------------- | ---------------------------- | ------------ |
-| airDaily | 空气质量每日预报    | [AirV1DailyResponse](https://dev.qweather.com/docs/api/air-quality/air-daily-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| airDaily | 空气质量每日预报 | [AirV1DailyResponse](https://dev.qweather.com/docs/api/air-quality/air-daily-forecast/#response) |
 
 ## 参数
 
@@ -42,4 +40,4 @@ instance.airDaily(parameter, new Callback<AirV1DailyResponse>() {
 
 ## 返回数据
 
-[AirV1DailyResponse](https://dev.qweather.com/docs/api/air-quality/air-daily-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)
+[AirV1DailyResponse](https://dev.qweather.com/docs/api/air-quality/air-daily-forecast/#response)

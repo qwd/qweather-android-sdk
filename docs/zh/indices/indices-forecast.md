@@ -7,10 +7,10 @@
 - 中国天气生活指数：舒适度指数、洗车指数、穿衣指数、感冒指数、运动指数、旅游指数、紫外线指数、空气污染扩散条件指数、空调开启指数、过敏指数、太阳镜指数、化妆指数、晾晒指数、交通指数、钓鱼指数、防晒指数
 - 海外天气生活指数：运动指数、洗车指数、紫外线指数、钓鱼指数
 
-| 接口代码    | 接口         | 数据类           |
+| 接口代码 | 接口 | 数据类 |
 | ---------- | ------------ | --------------- |
-| indices1d | 当天生活指数   | [IndicesDailyResponse](https://dev.qweather.com/docs/api/indices/indices-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
-| indices3d | 3天生活指数    | [IndicesDailyResponse](https://dev.qweather.com/docs/api/indices/indices-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| indices1d | 当天生活指数 | [IndicesDailyResponse](https://dev.qweather.com/docs/api/indices/indices-forecast/#response) |
+| indices3d | 3天生活指数 | [IndicesDailyResponse](https://dev.qweather.com/docs/api/indices/indices-forecast/#response) |
 
 ## 参数
 
@@ -51,7 +51,7 @@ instance.indices3d(parameter, responseCallback);
 
 ## 返回数据
 
-[IndicesDailyResponse](https://dev.qweather.com/docs/api/indices/indices-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)
+[IndicesDailyResponse](https://dev.qweather.com/docs/api/indices/indices-forecast/#response)
 
 ### 生活指数类型和等级
 

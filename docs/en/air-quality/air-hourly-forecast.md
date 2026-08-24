@@ -2,13 +2,11 @@
 
 # Air quality hourly forecast
 
-The air quality hourly forecast API provides air quality forecast data for each hour of the next 24 hours, including AQI, pollutants concentration, sub-indexes, health effects and advice.
+Get hourly air quality data for the next 24 hours, including AQI, pollutant concentrations, sub-indexes, and health guidance.
 
-We recommend to read [Air Quality Info](https://dev.qweather.com/en/docs/resource/air-info/) to learn about the AQIs, pollutants, supported regions and more.
-
-| Interface code | Interface                 | Class       |
+| Interface code | Interface | Class |
 | --------------- | ---------------------------- | ------------ |
-| airHourly | Air quality hourly forecast    | [AirV1HourlyResponse](https://dev.qweather.com/en/docs/api/air-quality/air-hourly-forecast/#response) |
+| airHourly | Air quality hourly forecast | [AirV1HourlyResponse](https://dev.qweather.com/en/docs/api/air-quality/air-hourly-forecast/#response) |
 
 ## Parameters
 

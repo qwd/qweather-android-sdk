@@ -4,9 +4,9 @@
 
 台风实况和路径提供全球主要海洋流域的台风实时位置、等级、气压、风力、速度以及活跃台风的轨迹路径。
 
-| 接口代码          | 接口           | 数据类                |
+| 接口代码 | 接口 | 数据类 |
 | ---------------- | -------------- | ------------------- |
-| tropicalStormTrack | 台风实况和路径   | [StormTrackResponse](https://dev.qweather.com/docs/api/tropical-cyclone/storm-track/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| tropicalStormTrack | 台风实况和路径 | [StormTrackResponse](https://dev.qweather.com/docs/api/tropical-cyclone/storm-track/#response) |
 
 ## 参数
 
@@ -38,6 +38,6 @@ instance.tropicalStormTrack(parameter, new Callback<StormTrackResponse>() {
 
 ## 返回数据
 
-[StormTrackResponse](https://dev.qweather.com/docs/api/tropical-cyclone/storm-track/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)
+[StormTrackResponse](https://dev.qweather.com/docs/api/tropical-cyclone/storm-track/#response)
 
 [台风等级](https://dev.qweather.com/docs/api/tropical-cyclone/storm-track/#%E5%8F%B0%E9%A3%8E%E7%AD%89%E7%BA%A7)

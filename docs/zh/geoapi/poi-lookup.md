@@ -4,9 +4,9 @@
 
 使用关键字和坐标查询POI信息（景点、火车站、飞机场、港口等）
 
-| 接口代码 | 接口                    | 数据类       |
+| 接口代码 | 接口 | 数据类 |
 | ----------- | ------------------ | ------------ |
-| geoPoiLookup | POI搜索  | [GeoPoiResponse](https://dev.qweather.com/docs/api/geoapi/poi-lookup/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| geoPoiLookup | POI搜索 | [GeoPoiResponse](https://dev.qweather.com/docs/api/geoapi/poi-lookup/#response) |
 
 ## 参数
 
@@ -45,4 +45,4 @@ instance.geoPoiLookup(parameter, new Callback<GeoPoiResponse>() {
 
 ## 返回数据
 
-[GeoPoiResponse](https://dev.qweather.com/docs/api/geoapi/poi-lookup/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)
+[GeoPoiResponse](https://dev.qweather.com/docs/api/geoapi/poi-lookup/#response)

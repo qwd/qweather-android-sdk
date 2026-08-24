@@ -4,9 +4,9 @@
 
 未来10天全球潮汐数据，包括满潮、干潮高度和时间，逐小时潮汐数据。
 
-| 接口代码       | 接口     | 数据类             |
+| 接口代码 | 接口 | 数据类 |
 | ----------------------- | ---- | ------------------ |
-| oceanTide | 潮汐 | [OceanTideResponse](https://dev.qweather.com/docs/api/ocean/tide/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| oceanTide | 潮汐 | [OceanTideResponse](https://dev.qweather.com/docs/api/ocean/tide/#response) |
 
 ## 参数
 
@@ -47,4 +47,4 @@ instance.oceanTide(parameter, new Callback<OceanTideResponse>() {
 
 ## 返回数据
 
-[OceanTideResponse](https://dev.qweather.com/docs/api/ocean/tide/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)
+[OceanTideResponse](https://dev.qweather.com/docs/api/ocean/tide/#response)

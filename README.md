@@ -2,7 +2,6 @@
 
 [English](./README.md) | [中文](./README-zh.md) · [Console](https://id.qweather.com/en) | [QWeather](https://www.qweather.com/en)
 
-
 ### Getting Started
 
 - [Configuration](./docs/en/config.md)
@@ -20,12 +19,12 @@
 
 ### Weather
 
-- [Real-time Weather](./docs/en/weather/weather-now.md)
-- [Weather Daily Forecast](./docs/en/weather/weather-daily-forecast.md)
-- [Weather Hourly Forecast](./docs/en/weather/weather-hourly-forecast.md)
-- [Grid Weather Real-time](./docs/en/weather/grid-weather-now.md)
-- [Grid Weather Daily Forecast](./docs/en/weather/grid-weather-daily-forecast.md)
-- [Grid Weather Hourly Forecast](./docs/en/weather/grid-weather-hourly-forecast.md)
+- [Current Weather](./docs/en/weather/weather-current.md)
+- [Daily Forecast](./docs/en/weather/weather-daily-forecast.md)
+- [Hourly Forecast](./docs/en/weather/weather-hourly-forecast.md)
+- [Weather Now (City-based)](./docs/en/weather/city-weather-now.md)
+- [Daily Forecast (City-based)](./docs/en/weather/city-weather-daily-forecast.md)
+- [Hourly Forecast (City-based)](./docs/en/weather/city-weather-hourly-forecast.md)
 
 ### Minutely Forecast
 
@@ -44,12 +43,10 @@
 - [Current Air Quality](./docs/en/air-quality/air-current.md)
 - [Air Quality Hourly Forecast](./docs/en/air-quality/air-hourly-forecast.md)
 - [Air Quality Daily Forecast](./docs/en/air-quality/air-daily-forecast.md)
-- [Monitoring Station Data](./docs/en/air-quality/air-station.md)
 
 ### Time Machine
 
 - [Time Machine for Weather](./docs/en/time-machine/time-machine-weather.md)
-- [Time Machine for Air Quality](./docs/en/time-machine/time-machine-air.md)
 
 ### Tropical Cyclone
 
